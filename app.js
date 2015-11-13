@@ -10,6 +10,8 @@ app.set('view engine', 'html');
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({extended: true}));
 
+document.domain = 'https://www.wheredoesitbern.com';
+
 // set up tweet stream
 var Twitter = require('node-tweet-stream'),
     t       = new Twitter({
