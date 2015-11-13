@@ -1,6 +1,10 @@
 {
   "name": "feel_the_bern",
-  "version": "1.0.0",
+  "version": "2.0.0",
+  "engines": {
+    "node": "5.0.0",
+    "npm": "3.4.1"
+  }
   "description": "See where #feelthebern is trending",
   "main": "app.js",
   "scripts": {
@@ -24,9 +28,9 @@
   "keywords": [
     "bernie",
     "sanders",
-    "feel",
-    "the",
-    "bern"
+    "bernie 2016",
+    "bernie sanders for president",
+    "feel the bern"
   ],
   "bugs": {
     "url": "https://github.com/ybinstock/wheredoesitbern/issues"
