@@ -10,7 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "yoni binstock",
+  "author": "Yoni Binstock",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.9.1",
@@ -35,5 +35,5 @@
   "bugs": {
     "url": "https://github.com/ybinstock/wheredoesitbern/issues"
   },
-  "homepage": "https://github.com/ybinstock/wheredoesitbern#readme"
+  "homepage": "http://wheredoesitbern.com"
 }
