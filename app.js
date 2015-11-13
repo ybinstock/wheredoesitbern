@@ -28,12 +28,6 @@ io.on('connection', function(socket) {
   });
 });
 
-io.configure(function() {
-  io.set("transports", ["xhr-polling"]);
-  io.set("polling duration", 10);
-  io.set("log level", 1);
-});
-
 // stream tweets
 t.on('tweet', function(tweet) {
   io.sockets.emit('receive_tweet', tweet);
