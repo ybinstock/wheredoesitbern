@@ -52,6 +52,6 @@ app.get('/', function(req, res) {
   res.render('index');
 });
 
-server.listen(process.env.PORT || 3000, function() {
+server.listen(process.env.PORT || 80, function() {
   console.log('server started');
 });
