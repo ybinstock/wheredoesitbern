@@ -4,7 +4,7 @@
   "engines": {
     "node": "5.0.0",
     "npm": "3.4.1"
-  }
+  },
   "description": "See where #feelthebern is trending",
   "main": "app.js",
   "scripts": {
