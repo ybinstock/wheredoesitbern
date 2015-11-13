@@ -41,13 +41,12 @@ h1 {
 }
 
 #reference {
-  float:right;
+  float: right;
   color: white;
   font-size: 15px;
   text-align: center;
   margin-right: 10px;
 }
-
 
 #link {
   text-decoration: underline;
@@ -59,8 +58,8 @@ h4 {
 }
 
 #startbutton {
-  border-top: 1px solid #FF630A;
-  background: #FF630A;
+  border-top: 1px solid #ff630a;
+  background: #ff630a;
   border-radius: 10px;
   color: white;
   font-size: 18px;
@@ -102,15 +101,17 @@ and (min-device-width: 320px) and (max-device-width: 680px) {
     font-size: 10px;
     padding: 1px 4px 1px;
   }
+
   #map {
-   top: 10px;
+    top: 10px;
   }
+
   .list-of-tweets {
     height: 80px !important;
   }
 
   #left-scroll {
-    visibility:hidden;
+    visibility: hidden;
     height: 80px !important;
   }
 
