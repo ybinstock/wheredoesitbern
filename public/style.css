@@ -1,5 +1,8 @@
 body {
   background-color: #00c6ff;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/2e/Bernie_Sanders_by_Gage_Skidmore.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .headerText {
@@ -17,10 +20,6 @@ body {
 #left-scroll {
   height: 315px;
   margin-top: 25px;
-}
-
-.fa-spinner {
-  text-align: center;
 }
 
 .clr:after {
@@ -42,15 +41,13 @@ h1 {
 }
 
 #reference {
+  float:right;
   color: white;
   font-size: 15px;
   text-align: center;
+  margin-right: 10px;
 }
 
-.footer {
-  width: 100%;
-  bottom: 0;
-}
 
 #link {
   text-decoration: underline;
@@ -68,10 +65,10 @@ h4 {
   color: white;
   font-size: 18px;
   text-decoration: none;
-  margin-left: 36%;
-  margin-top: 5%;
   z-index: 999;
   font-family: sans-serif;
+  cursor: pointer;
+  text-align: center;
 }
 
 .button:hover {
@@ -92,7 +89,10 @@ h4 {
   /*font-family: "Arial Black", Gadget, sans-serif;*/
   font-style: normal;
   font-variant: normal;
+}
 
+.list-of-tweets {
+  top: 15px;
 }
 
 @media only screen
@@ -102,8 +102,30 @@ and (min-device-width: 320px) and (max-device-width: 680px) {
     font-size: 10px;
     padding: 1px 4px 1px;
   }
+  #map {
+   top: 10px;
+  }
+  .list-of-tweets {
+    height: 80px !important;
+  }
+
+  #left-scroll {
+    visibility:hidden;
+    height: 80px !important;
+  }
+
+  .headerText {
+    font-size: 28px;
+  }
+
+  .show-wait-msg {
+    top: 70px !important;
+    margin-left: 45% !important;
+    z-index: 300;
+  }
+
   #startbutton {
-    margin-left: 22%;
+    top: 60px;
   }
 
 }
@@ -121,35 +143,9 @@ and (min-device-width: 320px) and (max-device-width: 680px) {
   font-variant: normal;
 }
 
-form {
-  margin-top: 15px;
-  margin-bottom: 80px;
-}
-
 p {
   color: black;
   font-size: 20px;
-}
-
-input {
-  color: black;
-}
-
-.sign-log {
-  margin-top: 30px;
-  margin-bottom: 40px;
-}
-
-.sign-log input {
-  margin-top: -15px;
-}
-
-.sign-log p {
-  margin-top: 10px;
-}
-
-.sign-log-btn {
-  margin-bottom: -30px;
 }
 
 #tweet-count {
@@ -162,18 +158,20 @@ input {
 
 #wait-msg {
   display: none;
-  margin-top: -10px;
-  margin-bottom: 20px;
 }
 
 .show-wait-msg {
   display: block !important;
   position: relative;
   width: 100px;
-  margin-left: 45%;
+  margin-left: 65%;
   top: 10px;
   font-size: 24px;
   color: white;
+}
+
+.fa-spinner {
+  text-align: center;
 }
 
 #tweetd img {
@@ -223,7 +221,7 @@ b, strong {
 }
 
 .left-side {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/2e/Bernie_Sanders_by_Gage_Skidmore.jpg');
+  /*background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/2e/Bernie_Sanders_by_Gage_Skidmore.jpg');*/
   background-repeat: no-repeat;
   background-size: 100%;
   content: "";

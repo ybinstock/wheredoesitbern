@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "yoni binstock",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.9.1",
@@ -15,5 +15,21 @@
     "lodash": "^2.4.1",
     "node-tweet-stream": "^1.6.0",
     "socket.io": "^1.1.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ybinstock/wheredoesitbern.git"
+  },
+  "keywords": [
+    "bernie",
+    "sanders",
+    "feel",
+    "the",
+    "bern"
+  ],
+  "bugs": {
+    "url": "https://github.com/ybinstock/wheredoesitbern/issues"
+  },
+  "homepage": "https://github.com/ybinstock/wheredoesitbern#readme"
 }
