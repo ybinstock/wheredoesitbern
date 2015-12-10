@@ -48,6 +48,18 @@ h1 {
   margin-right: 10px;
 }
 
+.official-site {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  float: right;
+  padding-top: 68px;
+  margin-right: 45px;
+}
+
+.bernie-2016 {
+}
+
 #link {
   text-decoration: underline;
 }
@@ -127,6 +139,14 @@ and (min-device-width: 320px) and (max-device-width: 680px) {
 
   #startbutton {
     top: 60px;
+  }
+
+  .official-site {
+    margin-bottom: 48px;
+    position: fixed !important;
+    bottom: 0px !important;
+    width: 100% !important;
+    margin-left: -20px;
   }
 
 }
